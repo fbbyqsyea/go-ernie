@@ -1,6 +1,6 @@
 # 文心千帆 GO SDK
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/anhao/go-ernie.svg)](https://pkg.go.dev/github.com/anhao/go-ernie)
+[![Go Reference](https://pkg.go.dev/badge/github.com/fbbyqsyea/go-ernie.svg)](https://pkg.go.dev/github.com/fbbyqsyea/go-ernie)
 
 本库为文心千帆GO语言SDK，非官方库,目前官方还没有GO语言的SDK [文心千帆](https://cloud.baidu.com/product/wenxinworkshop)
 目前支持：
@@ -14,7 +14,7 @@
 ### 安装
 
 ```go
-go get github.com/anhao/go-ernie
+go get github.com/fbbyqsyea/go-ernie
 ```
 
 需要 go 版本为 1.18+
@@ -26,7 +26,7 @@ package main
 import (
 	"context"
 	"fmt"
-	ernie "github.com/anhao/go-ernie"
+	ernie "github.com/fbbyqsyea/go-ernie"
 )
 
 func main() {
@@ -62,7 +62,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	ernie "github.com/anhao/go-ernie"
+	ernie "github.com/fbbyqsyea/go-ernie"
 	"io"
 )
 
@@ -112,7 +112,7 @@ package main
 import (
 	"context"
 	"fmt"
-	ernie "github.com/anhao/go-ernie"
+	ernie "github.com/fbbyqsyea/go-ernie"
 )
 
 func main() {
@@ -143,7 +143,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	ernie "github.com/anhao/go-ernie"
+	ernie "github.com/fbbyqsyea/go-ernie"
 	"io"
 )
 
@@ -193,7 +193,7 @@ package main
 import (
 	"context"
 	"fmt"
-	ernie "github.com/anhao/go-ernie"
+	ernie "github.com/fbbyqsyea/go-ernie"
 )
 
 func main() {
@@ -224,7 +224,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	ernie "github.com/anhao/go-ernie"
+	ernie "github.com/fbbyqsyea/go-ernie"
 	"io"
 )
 
@@ -274,7 +274,7 @@ package main
 import (
 	"context"
 	"fmt"
-	ernie "github.com/anhao/go-ernie"
+	ernie "github.com/fbbyqsyea/go-ernie"
 )
 
 func main() {
@@ -306,7 +306,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	ernie "github.com/anhao/go-ernie"
+	ernie "github.com/fbbyqsyea/go-ernie"
 	"io"
 )
 
@@ -356,7 +356,7 @@ package main
 import (
 	"context"
 	"fmt"
-	ernie "github.com/anhao/go-ernie"
+	ernie "github.com/fbbyqsyea/go-ernie"
 )
 
 func main() {

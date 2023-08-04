@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	utils "github.com/anhao/go-ernie/internal"
+	utils "github.com/fbbyqsyea/go-ernie/internal"
 	"io"
 	"io/ioutil"
 	"net/http"

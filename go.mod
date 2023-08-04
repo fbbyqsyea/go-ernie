@@ -1,3 +1,3 @@
-module github.com/anhao/go-ernie
+module github.com/fbbyqsyea/go-ernie
 
 go 1.18
