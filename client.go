@@ -6,12 +6,12 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	utils "github.com/fbbyqsyea/go-ernie/internal"
 	"io"
-	"io/ioutil"
 	"net/http"
 	"net/url"
 	"strings"
+
+	utils "github.com/fbbyqsyea/go-ernie/internal"
 )
 
 type Client struct {
@@ -176,7 +176,7 @@ func (c *Client) GetAccessToken(ctx context.Context) (*string, error) {
 	}
 	defer res.Body.Close()
 
-	body, err := ioutil.ReadAll(res.Body)
+	body, err := io.ReadAll(res.Body)
 	if err != nil {
 		return nil, err
 	}

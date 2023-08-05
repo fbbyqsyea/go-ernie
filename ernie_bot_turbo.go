@@ -8,12 +8,12 @@ import (
 const ernireBotTurboURL = "/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/eb-instant"
 
 type ErnieBotTurboRequest struct {
-	Messages     []ChatCompletionMessage `json:"messages"`
-	Temperature  float64                 `json:"temperature"`
-	TopP         float64                 `json:"top_p"`
-	PenaltyScore float64                 `json:"penalty_score"`
-	Stream       bool                    `json:"stream"`
-	UserId       string                  `json:"user_id"`
+	Messages        []ChatCompletionMessage `json:"messages"`
+	Temperature     float32                 `json:"temperature,omitempty"`
+	TopP            float32                 `json:"top_p,omitempty"`
+	PresencePenalty float32                 `json:"presence_penalty,omitempty"`
+	Stream          bool                    `json:"stream"`
+	UserId          string                  `json:"user_id"`
 }
 
 type ErnieBotTurboResponse struct {
